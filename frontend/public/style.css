@@ -1,0 +1,270 @@
+*{
+    z-index: 0;
+}
+
+.background{
+    background-color: #CFD4ED;
+}
+.background1{
+   background-color: #0D28A6;   
+}
+.sidebar {
+position: absolute;
+left: 0%;
+right: 95.50%;
+top: 0%;
+bottom: 50%;
+background: #0D28A6;
+}
+.icon {
+position: absolute;
+width: 34px;
+height: 34px;
+left: 13px;
+top: 18px;
+background: #CFD4ED;
+}
+.home {
+    position: absolute;
+    left: 32.86%;
+    right: 32.86%;
+    top: 25.62%;
+    bottom: 46.88%;
+}
+.truck {
+    position: absolute;
+    left: 32.86%;
+    right: 32.86%;
+    top: 40.62%;
+    bottom: 46.88%;
+    width: 24px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.sidebar2{
+    box-sizing: border-box;
+    position: absolute;
+    left: 5%;
+    right: 88.0%;
+    top: 10.76%;
+    bottom: 50%;
+    background: #FFFFFF;
+}
+.sidebar3 {
+    position: absolute;
+    left: 0%;
+    right: 95.50%;
+    top: 0%;
+    bottom: 0%;
+    background: #0D28A6;    
+}
+.sidebar4{
+    box-sizing: border-box;
+    position: absolute;
+    left: 5%;
+    right: 88.0%;
+    top: 10.76%;
+    bottom: 0%;
+    background: #FFFFFF;
+}
+.tulis{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.menu{
+    position: absolute;
+    width: 1370px;
+    height: 70px;
+    left: 68px;
+    top: 0px;
+background: #FFFFFF;
+box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+
+}
+.d-flex{
+    position: absolute;
+    padding-top: 18px;
+    left: 60%;
+    top: 0px;
+}
+.menu1{
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    left: 24px;
+    top: 18px;
+    background: #CFD4ED;
+}
+.pojok{
+    position: absolute;
+    left: 81.86%;
+    right: 32.86%;
+    top: 25.62%;
+    bottom: 46.88%;
+}
+.kanan{
+    position: absolute;
+    left: 10.86%;
+    top: 20px;
+}
+.isi{
+    position: absolute;
+    left: 11.98%;
+    right: 0%;
+    top: 10.96%;
+    bottom: 0%;   
+    background: #CFD4ED;
+}
+.isian{
+    position: absolute;
+    left: 3%;
+    right: 3%;
+    top: 20.96%;
+    bottom: 40%;   
+    background: #ffffff;
+}
+.bread{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+.col{
+    height: 446px;
+    width: 351px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    padding: 24px;
+
+}
+.mobil{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;  
+}
+.nama{
+    width: 303px;
+    height: 10px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.harga{
+    width: 303px;
+    height: 10px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.tgl{
+    width: 275px;
+height: 20px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+.gb{
+    left: 50px;
+}
+.delete{
+    box-sizing: border-box;
+justify-content: center;
+align-items: center;
+width: 143.5px;
+height: 48px;
+background: #FFFFFF;
+border: 1px solid #FA2C5A;
+border-radius: 2px;
+}
+.edit{
+    box-sizing: border-box;
+justify-content: center;
+align-items: center;
+width: 143.5px;
+height: 48px;
+background: #5CB85F;
+border-radius: 2px;
+}
+.cancel{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+    position: absolute;
+    width: 69px;
+    height: 36px;
+    left: 90px;
+    top: 500px;
+    background: #FFFFFF;
+    border: 1px solid #0D28A6;
+    border-radius: 2px;
+}
+.save{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+    position: absolute;
+    width: 69px;
+    height: 36px;
+    left: 180px;
+    top: 500px;
+    background: #1900ff;
+    border: 1px solid #0D28A6;
+    border-radius: 2px;
+}
+.tbh{
+position: absolute;
+top: 70px;
+left: 1000px;
+z-index: 5;
+}
+
+.tambah{
+    box-sizing: border-box;
+    
+    width: 140px;
+    height: 36px;
+    
+    
+    background: #0D28A6;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+.tabel{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+}
